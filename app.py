@@ -12,7 +12,7 @@ except Exception:
     OpenAI = None
 
 st.set_page_config(page_title="Generator Imagine", layout="centered")
-st.markdown("<h1 style='text-align:center;margin-bottom:0.4rem'>Generator Imagine (DALL·E 3)</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;margin-bottom:0.4rem'>Generator Imagine</h1>", unsafe_allow_html=True)
 st.caption("Interfață Streamlit care folosește **OpenAI – DALL-E-3**.")
 
 with st.sidebar:
